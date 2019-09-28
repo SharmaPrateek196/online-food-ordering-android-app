@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorActive"
+
+    >
+
+
+    <EditText
+        android:id="@+id/edtItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Food Item Name"
+        android:textColorHint="@color/colorWhite"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorWhite" />
+
+    <EditText
+        android:id="@+id/edtItemDesc"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/colorWhite"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Food Item Description"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorWhite" />
+
+    <EditText
+        android:id="@+id/edtfoodItemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorWhite"
+        android:layout_weight="1"
+        android:hint="Food Item Price"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorWhite" />
+
+    <EditText
+        android:id="@+id/edtPerOff"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/colorWhite"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Percent Off"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorWhite" />
+
+    <EditText
+        android:id="@+id/edtItemStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorWhite"
+        android:layout_weight="1"
+        android:hint="Food Item Status"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorWhite" />
+
+
+    <EditText
+        android:id="@+id/edtprsnCnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColorHint="@color/colorWhite"
+        android:hint="Person Count"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btnUpdateItem"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Update Food Item"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorActive">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorActive">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:src="@drawable/qmenu"
+                    android:id="@+id/imgFood"
+                    />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spFoodCategory"
+                    android:spinnerMode="dialog"
+                    android:prompt="@string/prompt1"
+                    ></Spinner>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:id="@+id/edtItemName"
+                    android:hint="Food Item Name"
+                    android:textColorHint="@color/colorWhite"
+                    android:textColor="@color/colorWhite"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:id="@+id/edtFoodDesc"
+                    android:hint="Food Description"
+                    android:textColorHint="@color/colorWhite"
+                    android:textColor="@color/colorWhite"
+                    android:lines="5"/>
+
+                  <EditText
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                      android:id="@+id/edtItemPrice"
+                      android:hint="Food Item Price"
+                      android:textColorHint="@color/colorWhite"
+                      android:textColor="@color/colorWhite"/>
+
+                  <EditText
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                      android:id="@+id/edtPrsnCnt"
+                      android:textColorHint="@color/colorWhite"
+                      android:hint="Person Count"
+                      android:textColor="@color/colorWhite"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnAddItem"
+                    android:text="Add Item Category"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:background="@drawable/mybutton"
+                    />
+</LinearLayout>
+</ScrollView>

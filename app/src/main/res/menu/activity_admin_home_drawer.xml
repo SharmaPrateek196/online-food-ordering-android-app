@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item android:title="Customer">
+        <menu>
+        <item
+            android:id="@+id/approve_customer"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Approve Customer " />
+        <item
+            android:id="@+id/show_customer"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Show Customer"/>
+        </menu>
+        </item>
+
+        <item android:title="Food Category">
+            <menu>
+            <item
+                android:id="@+id/add_food_category"
+                android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+                android:title="Add Food Category " />
+            <item
+                android:id="@+id/view_food_category"
+                android:icon="@drawable/ic_local_library_black_24dp"
+                android:title="View Food Category"/>
+            </menu>
+        </item>
+
+        <item android:title="Food Item">
+            <menu>
+            <item
+                android:id="@+id/add_food_item"
+                android:icon="@drawable/ic_restaurant_black_24dp"
+                android:title="Add Food Item " />
+            <item
+                android:id="@+id/view_food_item"
+                android:icon="@drawable/ic_restaurant_menu_black_24dp"
+                android:title="View Food Item"/>
+            </menu>
+        </item>
+
+    <item android:title="Manage Orders">
+        <menu>
+            <item
+                android:id="@+id/view_new_orders"
+                android:icon="@drawable/ic_pageview_black_24dp"
+                android:title="View New Orders" />
+            <item
+                android:id="@+id/view_all_orders"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                android:title="View All Orders"/>
+        </menu>
+    </item>
+
+    <item android:title="LOGOUT">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Logout" />
+            </menu>
+    </item>
+
+</menu>
